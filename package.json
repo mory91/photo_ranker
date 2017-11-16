@@ -1,0 +1,14 @@
+{
+  "name": "photo_ranker",
+  "version": "1.0.0",
+  "description": "a telegram bot to rank photos",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "morteza and keyvan",
+  "license": "ISC",
+  "dependencies": {
+    "telegraf": "^3.15.3"
+  }
+}
