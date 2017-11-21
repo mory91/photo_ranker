@@ -1,4 +1,5 @@
 module.exports  = {
-    TOKEN: 'BOT_TOKEN',
-    CHANNEL: 'CHANNEL_ID'
+    TOKEN: '',
+    MAIN_CHANNEL: '',
+    ACC_CHANNEL: ''
 }
