@@ -22,7 +22,7 @@ bot.on("photo", (ctx) => {
 			console.log(err)
 		else {
 			if (data >= 5) {
-				console.log("دیگه بسه")
+				return ctx.reply('بسه دیگه')
 			} else {
 				ctx.telegram.sendCopy(acChannelId, ctx.message, Markup.inlineKeyboard([Markup.callbackButton('تایید', 'accept')]).extra())
 				.then((data) => {
